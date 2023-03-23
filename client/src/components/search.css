@@ -26,13 +26,13 @@
     left: 0;
     top: 390px;
     text-transform: inherit !important;
-    background-color: #1b4965;
-    color: #62C9CC;
+    background-color: #5ce1e6;
+    color: #408b8e;
     width: 579px;
     border-radius: 0;
 }
 
 .search > button:hover {
-    background-color: #62C9CC;
-    color: #1b4965;
+    background-color: #5ce1e6;
+    color: #408b8e;
 }
