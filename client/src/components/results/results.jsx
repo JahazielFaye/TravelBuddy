@@ -3,14 +3,14 @@ import "../results/results.css";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import StarIcon from "@material-ui/icons/Star";
 
-function Results({
+function Results ({
   img,
   location,
   title,
   description,
   star,
-  price,
-  total,
+  budget,
+  tripCost,
 }) {
   return (
     <div className="searchResult">
@@ -33,8 +33,8 @@ function Results({
             </p>
           </div>
           <div className="searchResult__price">
-            <h2>{price}</h2>
-            <p>{total}</p>
+            <h2>{budget}</h2>
+            <p>{tripCost}</p>
           </div>
         </div>
       </div>

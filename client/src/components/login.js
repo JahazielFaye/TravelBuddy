@@ -23,7 +23,7 @@ import LoginIcon from "@mui/icons-material/Login";
 const isEmail = (email) =>
   /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(email);
 
-export default function Login() {
+function Login() {
   const [showPassword, setShowPassword] = React.useState(false);
 
   //Inputs
@@ -209,3 +209,6 @@ export default function Login() {
     </div>
   );
 }
+
+//exporting default login
+export default Login;
