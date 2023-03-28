@@ -48,6 +48,7 @@ server.start().then(() => {
         app.use('/', api);
 
         const buildPath = path.join(__dirname, "/public");
+        
         app.use(express.static(buildPath));
         // if we're in production, serve client/build as static assets
         if (process.env.NODE_ENV === "production") {
